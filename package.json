@@ -1,0 +1,22 @@
+{
+    "name": "js_cli_example",
+    "version": "1.0.0",
+    "description": "An example CLI application",
+    "bin": {
+        "bht": "src/bin/cli.js"
+    },
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bahatron/js_cli_example.git"
+    },
+    "author": "simonpiscitelli@gmail.com",
+    "bugs": {
+        "url": "https://github.com/bahatron/js_cli_example/issues"
+    },
+    "homepage": "https://github.com/bahatron/js_cli_example#readme",
+    "dependencies": {
+        "commander": "^2.19.0",
+        "minimist": "^1.2.0"
+    }
+}
