@@ -11,7 +11,7 @@ program
     .command("hello <name>")
     .description("says hello!")
     .option("-c, --capitalize", "says hello with caps")
-    .action((name = "", lastname = "", cmd) => {
+    .action((name = "", cmd) => {
         require("../scripts/SayHello")({ name, capitalize: cmd.capitalize });
     });
 

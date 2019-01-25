@@ -1,6 +1,6 @@
 {
     "name": "js_cli_example",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An example CLI application",
     "bin": {
         "bht": "src/bin/cli.js"
@@ -16,7 +16,6 @@
     },
     "homepage": "https://github.com/bahatron/js_cli_example#readme",
     "dependencies": {
-        "commander": "^2.19.0",
-        "minimist": "^1.2.0"
+        "commander": "^2.19.0"
     }
 }
