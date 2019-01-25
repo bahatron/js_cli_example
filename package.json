@@ -1,6 +1,6 @@
 {
     "name": "js_cli_example",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "An example CLI application",
     "bin": {
         "bht": "src/bin/cli.js"
